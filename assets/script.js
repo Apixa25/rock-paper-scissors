@@ -27,32 +27,32 @@ function rockpaperscissors(){
     
     // made a password variable 
     // then put in a for loop
-   var game = ""
-   for (var x = 0; x < passwordLength; x++){
-     console.log (charArray)
-     var rannum = Math.random();
-     console.log (rannum)
-     var ranidx = rannum * charArray.length
-     console.log (ranidx)
-     var rouranidx = Math.floor(ranidx)
-     game += charArray [rouranidx] 
+   //var game = ""
+   //for (var x = 0; x < passwordLength; x++){
+    // console.log (charArray)
+     //var rannum = Math.random();
+     //console.log (rannum)
+     //var ranidx = rannum * charArray.length
+     //console.log (ranidx)
+    // var rouranidx = Math.floor(ranidx)
+    // game += charArray [rouranidx] 
    
-   return game
-   }
+   //return game
+   //}
    
    
    // Get references to the #generate element
-   var generateBtn = document.querySelector("#generate");
+   //var generateBtn = document.querySelector("#generate");
    
    // Write password to the #password input
-   function writePassword() {
-     var password = generatePassword();
-     var passwordText = document.querySelector("#password");
+   //function writePassword() {
+     //var password = generatePassword();
+     //var passwordText = document.querySelector("#password");
    
-     passwordText.value = password;
+     //passwordText.value = password;
    
-   }
+   //}
    
    // Add event listener to generate button
-   generateBtn.addEventListener("click", writePassword);
+   //generateBtn.addEventListener("click", writePassword);
 }
